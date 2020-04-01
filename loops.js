@@ -17,6 +17,6 @@ while (number > 0){
 }
   return "done"
 }
-function doWhileLoop(num)­{
+/*function doWhileLoop(num)­{
 do(console.log("I run once regardless."))
-while(incrementVariable()<num )}
+while(incrementVariable()<num )}*/
