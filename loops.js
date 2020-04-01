@@ -17,9 +17,12 @@ while (number > 0){
 }
   return "done"
 }
-/*If your i value is 1, add the string "I am 1 strange loop."
-If your i value is anything else, add the string "I am ${i} strange loops."
-Remember flow control with if and else? And how do we interpolate i?
+function doWhileLoop(num)­{
+do(console.log("I run once regardless."))
+while(incrementVariable()<num )}
 
-Once the loop has finished, return the array full of strings.
-*/
+in loops.js. The function should take an integer as an argument. Use the incrementVariable() function
+(you can copy it from this README) in the condition, and console log "I run once regardless." while incrementVariable()
+returns a number less than the parameter received. (Your condition might look something like incrementVariable() < num.)
+Remember
+that it should also console log when receiving 0 as a parameter because the do-while runs before the condition is checked.
